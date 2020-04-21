@@ -45,9 +45,9 @@
         </field>
     </record>
 
-   <!--
+   
          <menuitem id="hospital_lab" name="Lab" parent="openacademy.root_menu"
               action="action_lab" sequence="40"/>
-    -->
+    
 </odoo>
 

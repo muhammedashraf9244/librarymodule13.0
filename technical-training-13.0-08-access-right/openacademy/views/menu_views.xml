@@ -35,13 +35,7 @@
             parent="openacademy.root_menu"
             sequence="99"
     />
-     <menuitem
-            id="lab_hospital"
-            name="Lab"
-            parent="openacademy.root_menu"
-            sequence="42"
-            action="action_lab"   
-    />
+     
     <menuitem
             id="partner_menu_action"
             name="Contacts"

@@ -8,4 +8,4 @@ class HospitalLab(models.Model):
     _description = 'Hospital Laboratory'
 
     name = fields.Char(string="Name", required=True)
-    user_id = fields.Many2one('res.users', string='Responsible')
+    user_id = fields.Many2one('res.users',ondelete='set null', string='Responsible')
