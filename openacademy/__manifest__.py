@@ -10,14 +10,14 @@
         Manage course, classes, teachers, students, ...
     """,
 
-    'author':      "Odoo@muhammedashraf",
-    'website':     "https://github.com/muhammedashraf9244",
+    'author':      "Odoo",
+    'website':     "http://www.odoo.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category':    'OpenAcademy',
-    'version':     '0.8',
+    'version':     '0.7',
 
     # any module necessary for this one to work correctly
     'depends':     ['base', 'mail'],
@@ -35,4 +35,8 @@
     # only loaded in demonstration mode
     'demo':        [],
     'license': 'AGPL-3',
+    'installable': True,
+    'auto_install': False,
+    'application': True,
+
 }
